@@ -6,4 +6,10 @@ local function sayhello()
 end
 
 sayhello()
-sayhello()
+
+local function myName(name)
+    print("Hello " .. name .. "!")
+end
+
+myName("Ahmad")
+myName("Saad")
