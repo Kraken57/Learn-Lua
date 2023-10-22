@@ -8,8 +8,11 @@ end
 sayhello()
 
 local function myName(name)
+    local name = name or "Aarish" 
+
     print("Hello " .. name .. "!")
 end
 
 myName("Ahmad")
 myName("Saad")
+myName()
