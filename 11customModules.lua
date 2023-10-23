@@ -7,3 +7,5 @@ Mod = {
 function Mod.sayHeello(name)
     print("Hello, " .. name)
 end
+
+return Mod
