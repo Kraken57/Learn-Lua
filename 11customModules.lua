@@ -4,7 +4,7 @@ Mod = {
     end
 }
 
-function Mod.sayHeello(name)
+function Mod.sayHello(name)
     print("Hello, " .. name)
 end
 
